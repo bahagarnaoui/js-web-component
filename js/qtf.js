@@ -1,8 +1,6 @@
 class QuestionList extends HTMLElement {
     constructor() {
         super();
-        this.attachShadow({ mode: 'open' });
-        this.questions = [];
     }
 
     async generateQuestion(categoryId) {
